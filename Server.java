@@ -61,7 +61,6 @@ public class Server implements Runnable {
 	
 	
 	class ConnectionHandler implements Runnable {
-		
 		private Socket client;
 		private BufferedReader in;
 		private PrintWriter out;
